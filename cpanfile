@@ -8,3 +8,4 @@ requires 'Text::MicroTemplate::Extended';
 requires 'Text::MicroTemplate::DataSection';
 requires 'GitDDL';
 requires 'Path::Class';
+requires 'DateTime::Format::SQLite';

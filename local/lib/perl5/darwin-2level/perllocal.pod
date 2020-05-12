@@ -2660,3 +2660,69 @@ C<EXE_FILES: >
 
 =back
 
+=head2 Tue May 12 10:31:35 2020: C<Module> L<DateTime::Format::Strptime|DateTime::Format::Strptime>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/miyamura-koyo/src/perl/Jobeet/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.77>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Tue May 12 10:31:35 2020: C<Module> L<DateTime::Format::Builder|DateTime::Format::Builder>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/miyamura-koyo/src/perl/Jobeet/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.82>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Tue May 12 10:31:36 2020: C<Module> L<DateTime::Format::SQLite|DateTime::Format::SQLite>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/miyamura-koyo/src/perl/Jobeet/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.11>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+

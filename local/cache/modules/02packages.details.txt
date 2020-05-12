@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.34
-Line-Count:   1342
-Last-Updated: Tue May 12 19:13:37 2020
+Line-Count:   1357
+Last-Updated: Tue May 12 19:31:27 2020
 
 Algorithm::C3                      0.10  H/HA/HAARG/Algorithm-C3-0.10.tar.gz
 Apache::LogFormat::Compiler        0.36  K/KA/KAZEBURO/Apache-LogFormat-Compiler-0.36.tar.gz
@@ -795,6 +795,11 @@ FormValidator::Lite::Upload       undef  T/TO/TOKUHIROM/FormValidator-Lite-0.40.
 FormValidator::Lite::Upload::CGI  undef  T/TO/TOKUHIROM/FormValidator-Lite-0.40.tar.gz
 FormValidator::Lite::Upload::HTTPEngine undef  T/TO/TOKUHIROM/FormValidator-Lite-0.40.tar.gz
 FormValidator::Lite::Upload::PlackRequest undef  T/TO/TOKUHIROM/FormValidator-Lite-0.40.tar.gz
+Git::Repository                   1.324  B/BO/BOOK/Git-Repository-1.324.tar.gz
+Git::Repository::Command          1.324  B/BO/BOOK/Git-Repository-1.324.tar.gz
+Git::Repository::Plugin           1.324  B/BO/BOOK/Git-Repository-1.324.tar.gz
+Git::Version::Compare             1.004  B/BO/BOOK/Git-Version-Compare-1.004.tar.gz
+GitDDL                             0.03  T/TY/TYPESTER/GitDDL-0.03.tar.gz
 Hash::Merge                       0.300  R/RE/REHSACK/Hash-Merge-0.300.tar.gz
 Hash::MultiValue                   0.16  A/AR/ARISTOTLE/Hash-MultiValue-0.16.tar.gz
 Hash::Util::FieldHash::Compat      0.11  E/ET/ETHER/Hash-Util-FieldHash-Compat-0.11.tar.gz
@@ -850,6 +855,13 @@ HTTP::Status                       6.24  O/OA/OALDERS/HTTP-Message-6.24.tar.gz
 Import::Into                   1.002005  H/HA/HAARG/Import-Into-1.002005.tar.gz
 indirect                           0.39  V/VP/VPIT/indirect-0.39.tar.gz
 IO::HTML                          1.001  C/CJ/CJM/IO-HTML-1.001.tar.gz
+IPC::Run                       20200505.0  T/TO/TODDR/IPC-Run-20200505.0.tar.gz
+IPC::Run::Debug                20200505.0  T/TO/TODDR/IPC-Run-20200505.0.tar.gz
+IPC::Run::IO                   20200505.0  T/TO/TODDR/IPC-Run-20200505.0.tar.gz
+IPC::Run::Timer                20200505.0  T/TO/TODDR/IPC-Run-20200505.0.tar.gz
+IPC::Run::Win32Helper          20200505.0  T/TO/TODDR/IPC-Run-20200505.0.tar.gz
+IPC::Run::Win32IO              20200505.0  T/TO/TODDR/IPC-Run-20200505.0.tar.gz
+IPC::Run::Win32Pump            20200505.0  T/TO/TODDR/IPC-Run-20200505.0.tar.gz
 JSON                               4.02  I/IS/ISHIGAKI/JSON-4.02.tar.gz
 JSON::Backend::PP                  4.02  I/IS/ISHIGAKI/JSON-4.02.tar.gz
 JSON::MaybeXS                  1.004001  E/ET/ETHER/JSON-MaybeXS-1.004001.tar.gz
@@ -1221,6 +1233,8 @@ Sub::Name                          0.26  E/ET/ETHER/Sub-Name-0.26.tar.gz
 Sub::Quote                     2.006006  H/HA/HAARG/Sub-Quote-2.006006.tar.gz
 Sub::Uplevel                     0.2800  D/DA/DAGOLDEN/Sub-Uplevel-0.2800.tar.gz
 Sub::Util                          1.55  P/PE/PEVANS/Scalar-List-Utils-1.55.tar.gz
+System::Command                   1.119  B/BO/BOOK/System-Command-1.119.tar.gz
+System::Command::Reaper           1.119  B/BO/BOOK/System-Command-1.119.tar.gz
 Test::Deep                        1.130  R/RJ/RJBS/Test-Deep-1.130.tar.gz
 Test::Deep::All                   undef  R/RJ/RJBS/Test-Deep-1.130.tar.gz
 Test::Deep::Any                   undef  R/RJ/RJBS/Test-Deep-1.130.tar.gz
@@ -1274,6 +1288,7 @@ Test::Deep::SuperHashKeys         undef  R/RJ/RJBS/Test-Deep-1.130.tar.gz
 Test::Deep::SuperHashKeysOnly     undef  R/RJ/RJBS/Test-Deep-1.130.tar.gz
 Test::Exception                    0.43  E/EX/EXODIST/Test-Exception-0.43.tar.gz
 Test::Fatal                       0.014  R/RJ/RJBS/Test-Fatal-0.014.tar.gz
+Test::Git                         1.324  B/BO/BOOK/Git-Repository-1.324.tar.gz
 Test::Module::Build::Pluggable    undef  T/TO/TOKUHIROM/Module-Build-Pluggable-0.10.tar.gz
 Test::Mouse                       undef  S/SK/SKAJI/Mouse-v2.5.10.tar.gz
 Test::Requires                     0.10  T/TO/TOKUHIROM/Test-Requires-0.10.tar.gz
