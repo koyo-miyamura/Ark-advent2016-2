@@ -2550,3 +2550,113 @@ C<EXE_FILES: >
 
 =back
 
+=head2 Tue May 12 10:13:40 2020: C<Module> L<IPC::Run|IPC::Run>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/miyamura-koyo/src/perl/Jobeet/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 20200505.0>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Tue May 12 10:13:40 2020: C<Module> L<System::Command|System::Command>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/miyamura-koyo/src/perl/Jobeet/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.119>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Tue May 12 10:13:41 2020: C<Module> L<Git::Version::Compare|Git::Version::Compare>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/miyamura-koyo/src/perl/Jobeet/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.004>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Tue May 12 10:13:42 2020: C<Module> L<Git::Repository|Git::Repository>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/miyamura-koyo/src/perl/Jobeet/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.324>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Tue May 12 10:13:42 2020: C<Module> L<GitDDL|GitDDL>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/miyamura-koyo/src/perl/Jobeet/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.03>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+

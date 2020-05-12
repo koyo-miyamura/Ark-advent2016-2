@@ -1415,6 +1415,54 @@ DISTRIBUTIONS
       Module::Build::Tiny 0.035
       Scalar::Util 1.19
       perl 5.008001
+  Git-Repository-1.324
+    pathname: B/BO/BOOK/Git-Repository-1.324.tar.gz
+    provides:
+      Git::Repository 1.324
+      Git::Repository::Command 1.324
+      Git::Repository::Plugin 1.324
+      Test::Git 1.324
+    requirements:
+      Carp 0
+      Cwd 0
+      Exporter 0
+      ExtUtils::MakeMaker 0
+      File::Spec 0
+      File::Spec::Functions 0
+      File::Temp 0
+      Git::Version::Compare 1.001
+      IO::Handle 0
+      Scalar::Util 0
+      System::Command 1.118
+      Test::Builder 0
+      namespace::clean 0
+      perl 5.006
+      strict 0
+      warnings 0
+  Git-Version-Compare-1.004
+    pathname: B/BO/BOOK/Git-Version-Compare-1.004.tar.gz
+    provides:
+      Git::Version::Compare 1.004
+    requirements:
+      Carp 0
+      Exporter 0
+      ExtUtils::MakeMaker 0
+      perl 5.006
+      strict 0
+      warnings 0
+  GitDDL-0.03
+    pathname: T/TY/TYPESTER/GitDDL-0.03.tar.gz
+    provides:
+      GitDDL 0.03
+    requirements:
+      DBI 0
+      ExtUtils::MakeMaker 6.36
+      File::Path 2.07
+      Git::Repository 0
+      Mouse 0
+      SQL::Translator 0.11016
+      Test::Git 0
+      Test::More 0.86
   HTML-Escape-1.10
     pathname: T/TO/TOKUHIROM/HTML-Escape-1.10.tar.gz
     provides:
@@ -1610,6 +1658,19 @@ DISTRIBUTIONS
       Encode 2.10
       Exporter 5.57
       ExtUtils::MakeMaker 6.30
+  IPC-Run-20200505.0
+    pathname: T/TO/TODDR/IPC-Run-20200505.0.tar.gz
+    provides:
+      IPC::Run 20200505.0
+      IPC::Run::Debug 20200505.0
+      IPC::Run::IO 20200505.0
+      IPC::Run::Timer 20200505.0
+      IPC::Run::Win32Helper 20200505.0
+      IPC::Run::Win32IO 20200505.0
+      IPC::Run::Win32Pump 20200505.0
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::More 0.47
   Import-Into-1.002005
     pathname: H/HA/HAARG/Import-Into-1.002005.tar.gz
     provides:
@@ -2518,6 +2579,28 @@ DISTRIBUTIONS
     requirements:
       Carp 0
       ExtUtils::MakeMaker 6.17
+      constant 0
+      perl 5.006
+      strict 0
+      warnings 0
+  System-Command-1.119
+    pathname: B/BO/BOOK/System-Command-1.119.tar.gz
+    provides:
+      System::Command 1.119
+      System::Command::Reaper 1.119
+    requirements:
+      Carp 0
+      Cwd 0
+      Data::Dumper 0
+      ExtUtils::MakeMaker 0
+      Fcntl 0
+      IO::Handle 0
+      IO::Select 0
+      IPC::Run 0
+      List::Util 0
+      POSIX 0
+      Scalar::Util 0
+      Symbol 0
       constant 0
       perl 5.006
       strict 0
