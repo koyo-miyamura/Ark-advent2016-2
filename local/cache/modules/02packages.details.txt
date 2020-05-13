@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.34
-Line-Count:   1357
-Last-Updated: Tue May 12 19:31:27 2020
+Line-Count:   1371
+Last-Updated: Wed May 13 15:02:03 2020
 
 Algorithm::C3                      0.10  H/HA/HAARG/Algorithm-C3-0.10.tar.gz
 Apache::LogFormat::Compiler        0.36  K/KA/KAZEBURO/Apache-LogFormat-Compiler-0.36.tar.gz
@@ -142,6 +142,16 @@ Date::Language::Turkish             1.0  A/AT/ATOOMIC/TimeDate-2.32.tar.gz
 Date::Parse                        2.32  A/AT/ATOOMIC/TimeDate-2.32.tar.gz
 DateTime                           1.52  D/DR/DROLSKY/DateTime-1.52.tar.gz
 DateTime::Duration                 1.52  D/DR/DROLSKY/DateTime-1.52.tar.gz
+DateTime::Format::Builder          0.82  D/DR/DROLSKY/DateTime-Format-Builder-0.82.tar.gz
+DateTime::Format::Builder::Parser  0.82  D/DR/DROLSKY/DateTime-Format-Builder-0.82.tar.gz
+DateTime::Format::Builder::Parser::Dispatch 0.82  D/DR/DROLSKY/DateTime-Format-Builder-0.82.tar.gz
+DateTime::Format::Builder::Parser::generic 0.82  D/DR/DROLSKY/DateTime-Format-Builder-0.82.tar.gz
+DateTime::Format::Builder::Parser::Quick 0.82  D/DR/DROLSKY/DateTime-Format-Builder-0.82.tar.gz
+DateTime::Format::Builder::Parser::Regex 0.82  D/DR/DROLSKY/DateTime-Format-Builder-0.82.tar.gz
+DateTime::Format::Builder::Parser::Strptime 0.82  D/DR/DROLSKY/DateTime-Format-Builder-0.82.tar.gz
+DateTime::Format::SQLite           0.11  C/CF/CFAERBER/DateTime-Format-SQLite-0.11.tar.gz
+DateTime::Format::Strptime         1.77  D/DR/DROLSKY/DateTime-Format-Strptime-1.77.tar.gz
+DateTime::Format::Strptime::Types  1.77  D/DR/DROLSKY/DateTime-Format-Strptime-1.77.tar.gz
 DateTime::Helpers                  1.52  D/DR/DROLSKY/DateTime-1.52.tar.gz
 DateTime::Infinite                 1.52  D/DR/DROLSKY/DateTime-1.52.tar.gz
 DateTime::Infinite::Future         1.52  D/DR/DROLSKY/DateTime-1.52.tar.gz
@@ -980,6 +990,10 @@ Package::Stash::PP                 0.38  E/ET/ETHER/Package-Stash-0.38.tar.gz
 Package::Stash::XS                 0.29  E/ET/ETHER/Package-Stash-XS-0.29.tar.gz
 Package::Variant               1.003002  M/MS/MSTROUT/Package-Variant-1.003002.tar.gz
 Params::Util                       1.07  A/AD/ADAMK/Params-Util-1.07.tar.gz
+Params::Validate                   1.29  D/DR/DROLSKY/Params-Validate-1.29.tar.gz
+Params::Validate::Constants        1.29  D/DR/DROLSKY/Params-Validate-1.29.tar.gz
+Params::Validate::PP               1.29  D/DR/DROLSKY/Params-Validate-1.29.tar.gz
+Params::Validate::XS               1.29  D/DR/DROLSKY/Params-Validate-1.29.tar.gz
 Params::ValidationCompiler         0.30  D/DR/DROLSKY/Params-ValidationCompiler-0.30.tar.gz
 Params::ValidationCompiler::Compiler 0.30  D/DR/DROLSKY/Params-ValidationCompiler-0.30.tar.gz
 Params::ValidationCompiler::Exceptions 0.30  D/DR/DROLSKY/Params-ValidationCompiler-0.30.tar.gz

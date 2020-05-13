@@ -609,6 +609,15 @@ DISTRIBUTIONS
       integer 0
       perl 5.006
       strict 0
+  Data-Page-Navigation-0.07
+    pathname: K/KA/KAZEBURO/Data-Page-Navigation-0.07.tar.gz
+    provides:
+      Data::Page::Navigation 0.07
+    requirements:
+      Data::Page 2
+      ExtUtils::MakeMaker 0
+      Module::Build::Tiny 0.035
+      Test::More 0
   Data-Section-Simple-0.07
     pathname: M/MI/MIYAGAWA/Data-Section-Simple-0.07.tar.gz
     provides:
