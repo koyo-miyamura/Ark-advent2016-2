@@ -3,6 +3,7 @@ use v5.20.3;
 use strict;
 use warnings;
 use parent 'Jobeet::Schema::ResultBase';
+use Jobeet::Models;
 
 __PACKAGE__->table('jobeet_job');
 
@@ -96,6 +97,13 @@ __PACKAGE__->add_columns(
         timezone    => Jobeet::Schema->TZ,
     },
 );
+
+sub insert {
+    my $self = shift;
+
+    $self->expires_at( models('Schema')->now->add( days => models('conf')->{active_days} ) );
+    $self->next::method(@_);
+}
 
 __PACKAGE__->set_primary_key('id');
 __PACKAGE__->add_unique_constraint(['token']);
