@@ -4,12 +4,11 @@
 <div id="jobs">
 ? for my $category ($c->stash->{categories}->all) {
     <div class="category_<?= lc $category->name ?>">
-      <div class="category">
-        <div class="feed">
-          <a href="">Feed</a>
-        </div>
-        <h1><?= $category->name ?></h1>
-      </div>
+       <h1>
+        <a href="<?= $c->uri_for('/category', $category->slug) ?>">
+          <?= $category->name ?>
+        </a>
+      </h1>
 
 ? my $max_rows = $c->config->{max_jobs_on_homepage};
 ?= include('job/_partial_jobs', $category->get_active_jobs({ rows => $max_rows }));

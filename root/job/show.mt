@@ -1,11 +1,29 @@
 ? my $job = $c->stash->{job};
-? my $form = $c->stash->{form};
 
 ? extends 'common/jobs_base';
 
 ? block content => sub {
 
-<h1>Edit Job</h1>
+<div id="job">
+  <h1><?= $job->company ?></h1>
+  <h2><?= $job->location ?></h2>
+  <h3>
+    <?= $job->category->name ?>    <small> - <?= $job->type ?></small>
+  </h3>
+
+  <div class="description">
+    <?= $job->description ?>
+  </div>
+
+  <h4>How to apply?</h4>
+
+  <p class="how_to_apply"><?= $job->how_to_apply ?></p>
+
+  <div class="meta">
+    <small>posted on <?= $job->created_at->ymd ?></small>
+  </div>
+</div>
+
 
 <div id="job_actions">
   <h3>Admin</h3>
@@ -36,7 +54,5 @@
   </ul>
 </div>
 
-
-?= include('job/_partial_form', $form);
 
 ? } # endblock content
