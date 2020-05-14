@@ -17,3 +17,6 @@ db-update: migrate insert
 
 install:
 	carton install
+
+test:
+	carton exec prove -rl t
