@@ -153,6 +153,14 @@ DISTRIBUTIONS
       strict 0
       version 0.88
       warnings 0
+  Cache-FastMmap-1.49
+    pathname: R/RO/ROBM/Cache-FastMmap-1.49.tar.gz
+    provides:
+      Cache::FastMmap 1.49
+      Cache::FastMmap::OnLeave 1.49
+    requirements:
+      ExtUtils::MakeMaker 0
+      Storable 0
   Carp-Clan-6.08
     pathname: E/ET/ETHER/Carp-Clan-6.08.tar.gz
     provides:

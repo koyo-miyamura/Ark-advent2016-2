@@ -2792,3 +2792,25 @@ C<EXE_FILES: >
 
 =back
 
+=head2 Fri May 15 04:13:30 2020: C<Module> L<Cache::FastMmap|Cache::FastMmap>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/miyamura-koyo/src/perl/Jobeet/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.49>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+

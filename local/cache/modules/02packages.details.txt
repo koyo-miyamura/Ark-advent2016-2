@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.34
-Line-Count:   1372
-Last-Updated: Thu May 14 19:47:17 2020
+Line-Count:   1453
+Last-Updated: Fri May 15 13:13:28 2020
 
 Algorithm::C3                      0.10  H/HA/HAARG/Algorithm-C3-0.10.tar.gz
 Apache::LogFormat::Compiler        0.36  K/KA/KAZEBURO/Apache-LogFormat-Compiler-0.36.tar.gz
@@ -52,6 +52,10 @@ B::Hooks::OP::Check                0.22  E/ET/ETHER/B-Hooks-OP-Check-0.22.tar.gz
 bareword::filehandles             0.007  I/IL/ILMARI/bareword-filehandles-0.007.tar.gz
 Bundle::DBI                    12.008696  T/TI/TIMB/DBI-1.643.tar.gz
 Carp::Clan                         6.08  E/ET/ETHER/Carp-Clan-6.08.tar.gz
+CGI::Simple                        1.25  M/MA/MANWAR/CGI-Simple-1.25.tar.gz
+CGI::Simple::Cookie                1.25  M/MA/MANWAR/CGI-Simple-1.25.tar.gz
+CGI::Simple::Standard              1.25  M/MA/MANWAR/CGI-Simple-1.25.tar.gz
+CGI::Simple::Util                  1.25  M/MA/MANWAR/CGI-Simple-1.25.tar.gz
 Class::Accessor                    0.51  K/KA/KASEI/Class-Accessor-0.51.tar.gz
 Class::Accessor::Chained           0.01  R/RC/RCLAMP/Class-Accessor-Chained-0.01.tar.gz
 Class::Accessor::Chained::Fast    undef  R/RC/RCLAMP/Class-Accessor-Chained-0.01.tar.gz
@@ -865,7 +869,15 @@ HTTP::Server::PSGI                undef  M/MI/MIYAGAWA/Plack-1.0047.tar.gz
 HTTP::Status                       6.24  O/OA/OALDERS/HTTP-Message-6.24.tar.gz
 Import::Into                   1.002005  H/HA/HAARG/Import-Into-1.002005.tar.gz
 indirect                           0.39  V/VP/VPIT/indirect-0.39.tar.gz
+IO::AtomicFile                    2.113  C/CA/CAPOEIRAB/IO-Stringy-2.113.tar.gz
 IO::HTML                          1.001  C/CJ/CJM/IO-HTML-1.001.tar.gz
+IO::InnerFile                     2.113  C/CA/CAPOEIRAB/IO-Stringy-2.113.tar.gz
+IO::Lines                         2.113  C/CA/CAPOEIRAB/IO-Stringy-2.113.tar.gz
+IO::Scalar                        2.113  C/CA/CAPOEIRAB/IO-Stringy-2.113.tar.gz
+IO::ScalarArray                   2.113  C/CA/CAPOEIRAB/IO-Stringy-2.113.tar.gz
+IO::Stringy                       2.113  C/CA/CAPOEIRAB/IO-Stringy-2.113.tar.gz
+IO::Wrap                          2.113  C/CA/CAPOEIRAB/IO-Stringy-2.113.tar.gz
+IO::WrapTie                       2.113  C/CA/CAPOEIRAB/IO-Stringy-2.113.tar.gz
 IPC::Run                       20200505.0  T/TO/TODDR/IPC-Run-20200505.0.tar.gz
 IPC::Run::Debug                20200505.0  T/TO/TODDR/IPC-Run-20200505.0.tar.gz
 IPC::Run::IO                   20200505.0  T/TO/TODDR/IPC-Run-20200505.0.tar.gz
@@ -984,6 +996,7 @@ namespace::autoclean               0.29  E/ET/ETHER/namespace-autoclean-0.29.tar
 namespace::clean                   0.27  R/RI/RIBASUSHI/namespace-clean-0.27.tar.gz
 Net::EmptyPort                    undef  M/MI/MIYAGAWA/Test-TCP-2.22.tar.gz
 Object::Container                  0.14  T/TY/TYPESTER/Object-Container-0.14.tar.gz
+ok                             1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
 oo                                undef  H/HA/HAARG/Moo-2.004000.tar.gz
 ouse                              undef  S/SK/SKAJI/Mouse-v2.5.10.tar.gz
 Package::Stash                     0.38  E/ET/ETHER/Package-Stash-0.38.tar.gz
@@ -1250,6 +1263,65 @@ Sub::Uplevel                     0.2800  D/DA/DAGOLDEN/Sub-Uplevel-0.2800.tar.gz
 Sub::Util                          1.55  P/PE/PEVANS/Scalar-List-Utils-1.55.tar.gz
 System::Command                   1.119  B/BO/BOOK/System-Command-1.119.tar.gz
 System::Command::Reaper           1.119  B/BO/BOOK/System-Command-1.119.tar.gz
+Test2                          1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test2::API                     1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test2::API::Breakage           1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test2::API::Context            1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test2::API::Instance           1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test2::API::Stack              1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test2::Event                   1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test2::Event::Bail             1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test2::Event::Diag             1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test2::Event::Encoding         1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test2::Event::Exception        1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test2::Event::Fail             1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test2::Event::Generic          1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test2::Event::Note             1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test2::Event::Ok               1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test2::Event::Pass             1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test2::Event::Plan             1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test2::Event::Skip             1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test2::Event::Subtest          1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test2::Event::TAP::Version     1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test2::Event::V2               1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test2::Event::Waiting          1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test2::EventFacet              1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test2::EventFacet::About       1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test2::EventFacet::Amnesty     1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test2::EventFacet::Assert      1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test2::EventFacet::Control     1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test2::EventFacet::Error       1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test2::EventFacet::Hub         1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test2::EventFacet::Info        1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test2::EventFacet::Info::Table 1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test2::EventFacet::Meta        1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test2::EventFacet::Parent      1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test2::EventFacet::Plan        1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test2::EventFacet::Render      1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test2::EventFacet::Trace       1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test2::Formatter               1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test2::Formatter::TAP          1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test2::Hub                     1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test2::Hub::Interceptor        1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test2::Hub::Interceptor::Terminator 1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test2::Hub::Subtest            1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test2::IPC                     1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test2::IPC::Driver             1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test2::IPC::Driver::Files      1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test2::Tools::Tiny             1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test2::Util                    1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test2::Util::ExternalMeta      1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test2::Util::Facets2Legacy     1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test2::Util::HashBase          1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test2::Util::Trace             1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test::Builder                  1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test::Builder::Formatter       1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test::Builder::IO::Scalar         2.114  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test::Builder::Module          1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test::Builder::Tester          1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test::Builder::Tester::Color   1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test::Builder::Tester::Tie     1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test::Builder::TodoDiag        1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
 Test::Deep                        1.130  R/RJ/RJBS/Test-Deep-1.130.tar.gz
 Test::Deep::All                   undef  R/RJ/RJBS/Test-Deep-1.130.tar.gz
 Test::Deep::Any                   undef  R/RJ/RJBS/Test-Deep-1.130.tar.gz
@@ -1305,16 +1377,25 @@ Test::Exception                    0.43  E/EX/EXODIST/Test-Exception-0.43.tar.gz
 Test::Fatal                       0.014  R/RJ/RJBS/Test-Fatal-0.014.tar.gz
 Test::Git                         1.324  B/BO/BOOK/Git-Repository-1.324.tar.gz
 Test::Module::Build::Pluggable    undef  T/TO/TOKUHIROM/Module-Build-Pluggable-0.10.tar.gz
+Test::More                     1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
 Test::Mouse                       undef  S/SK/SKAJI/Mouse-v2.5.10.tar.gz
+Test::NoWarnings                   1.04  A/AD/ADAMK/Test-NoWarnings-1.04.tar.gz
+Test::NoWarnings::Warning          1.04  A/AD/ADAMK/Test-NoWarnings-1.04.tar.gz
 Test::Requires                     0.10  T/TO/TOKUHIROM/Test-Requires-0.10.tar.gz
 Test::SharedFork                   0.35  E/EX/EXODIST/Test-SharedFork-0.35.tar.gz
 Test::SharedFork::Array           undef  E/EX/EXODIST/Test-SharedFork-0.35.tar.gz
 Test::SharedFork::Scalar          undef  E/EX/EXODIST/Test-SharedFork-0.35.tar.gz
 Test::SharedFork::Store           undef  E/EX/EXODIST/Test-SharedFork-0.35.tar.gz
+Test::Simple                   1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
 Test::Specio                       0.46  D/DR/DROLSKY/Specio-0.46.tar.gz
 Test::SQL::Translator              1.61  M/MS/MSTROUT/SQL-Translator-1.61.tar.gz
 Test::TCP                          2.22  M/MI/MIYAGAWA/Test-TCP-2.22.tar.gz
 Test::TCP::CheckPort              undef  M/MI/MIYAGAWA/Test-TCP-2.22.tar.gz
+Test::Tester                   1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test::Tester::Capture          1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test::Tester::CaptureRunner    1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test::Tester::Delegate         1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
+Test::use::ok                  1.302175  E/EX/EXODIST/Test-Simple-1.302175.tar.gz
 Test::Warn                         0.36  B/BI/BIGJ/Test-Warn-0.36.tar.gz
 Text::MicroTemplate                0.24  K/KA/KAZUHO/Text-MicroTemplate-0.24.tar.gz
 Text::MicroTemplate::DataSection   0.01  T/TY/TYPESTER/Text-MicroTemplate-DataSection-0.01.tar.gz

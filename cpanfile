@@ -11,3 +11,4 @@ requires 'Path::Class';
 requires 'DateTime::Format::SQLite';
 requires 'Data::Page::Navigation';
 requires 'CGI::Simple';
+requires 'Cache::FastMmap';
