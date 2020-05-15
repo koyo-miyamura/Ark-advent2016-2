@@ -13,3 +13,5 @@ requires 'Data::Page::Navigation';
 requires 'CGI::Simple';
 requires 'Cache::FastMmap';
 requires 'DateTime::Format::W3CDTF';
+requires 'Ark::Plugin::I18N';
+requires 'Locale::Maketext::Lexicon';
