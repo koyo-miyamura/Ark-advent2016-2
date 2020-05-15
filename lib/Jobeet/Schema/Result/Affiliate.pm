@@ -3,6 +3,8 @@ use strict;
 use warnings;
 use parent 'Jobeet::Schema::ResultBase';
 use Jobeet::Schema::Types;
+use Digest::SHA1 qw/sha1_hex/;
+use Data::UUID;
 
 __PACKAGE__->table('jobeet_affiliate');
 
@@ -16,6 +18,15 @@ __PACKAGE__->add_columns(
     is_active   => TINYINT,
     created_at  => DATETIME,
 );
+
+sub insert {
+    my $self = shift;
+
+    $self->token(sha1_hex(Data::UUID->new->create))
+        unless $self->token;
+
+    $self->next::method(@_);
+}
 
 __PACKAGE__->set_primary_key('id');
 __PACKAGE__->add_unique_constraint(['email']);
