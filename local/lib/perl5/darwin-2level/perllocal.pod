@@ -2836,3 +2836,25 @@ C<EXE_FILES: >
 
 =back
 
+=head2 Fri May 15 09:50:11 2020: C<Module> L<Locale::Maketext::Lexicon|Locale::Maketext::Lexicon>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/miyamura-koyo/src/perl/Jobeet/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.00>
+
+=item *
+
+C<EXE_FILES: script/xgettext.pl>
+
+=back
+

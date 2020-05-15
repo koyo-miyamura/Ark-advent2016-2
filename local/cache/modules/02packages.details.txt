@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.34
-Line-Count:   1455
-Last-Updated: Fri May 15 16:44:57 2020
+Line-Count:   1479
+Last-Updated: Fri May 15 18:52:04 2020
 
 Algorithm::C3                      0.10  H/HA/HAARG/Algorithm-C3-0.10.tar.gz
 Apache::LogFormat::Compiler        0.36  K/KA/KAZEBURO/Apache-LogFormat-Compiler-0.36.tar.gz
@@ -28,6 +28,7 @@ Ark::Plugin::CSRFDefender         undef  S/SO/SONGMU/Ark-1.22.tar.gz
 Ark::Plugin::Encoding::Null       undef  S/SO/SONGMU/Ark-1.22.tar.gz
 Ark::Plugin::Encoding::Unicode    undef  S/SO/SONGMU/Ark-1.22.tar.gz
 Ark::Plugin::FormValidator::Lite  undef  S/SO/SONGMU/Ark-1.22.tar.gz
+Ark::Plugin::I18N                  0.01  S/SO/SONGMU/Ark-Plugin-I18N-0.01.tar.gz
 Ark::Plugin::Session              undef  S/SO/SONGMU/Ark-1.22.tar.gz
 Ark::Plugin::Session::Backend     undef  S/SO/SONGMU/Ark-1.22.tar.gz
 Ark::Plugin::Session::State::Cookie undef  S/SO/SONGMU/Ark-1.22.tar.gz
@@ -159,6 +160,7 @@ DateTime::Format::Builder::Parser::Strptime 0.82  D/DR/DROLSKY/DateTime-Format-B
 DateTime::Format::SQLite           0.11  C/CF/CFAERBER/DateTime-Format-SQLite-0.11.tar.gz
 DateTime::Format::Strptime         1.77  D/DR/DROLSKY/DateTime-Format-Strptime-1.77.tar.gz
 DateTime::Format::Strptime::Types  1.77  D/DR/DROLSKY/DateTime-Format-Strptime-1.77.tar.gz
+DateTime::Format::W3CDTF           0.07  G/GW/GWILLIAMS/DateTime-Format-W3CDTF-0.07.tar.gz
 DateTime::Helpers                  1.52  D/DR/DROLSKY/DateTime-1.52.tar.gz
 DateTime::Infinite                 1.52  D/DR/DROLSKY/DateTime-1.52.tar.gz
 DateTime::Infinite::Future         1.52  D/DR/DROLSKY/DateTime-1.52.tar.gz
@@ -898,6 +900,28 @@ List::MoreUtils::PP               0.428  R/RE/REHSACK/List-MoreUtils-0.428.tar.g
 List::MoreUtils::XS               0.428  R/RE/REHSACK/List-MoreUtils-XS-0.428.tar.gz
 List::Util                         1.55  P/PE/PEVANS/Scalar-List-Utils-1.55.tar.gz
 List::Util::XS                     1.55  P/PE/PEVANS/Scalar-List-Utils-1.55.tar.gz
+Locale::Maketext::Extract          1.00  D/DR/DRTECH/Locale-Maketext-Lexicon-1.00.tar.gz
+Locale::Maketext::Extract::Plugin::Base 1.00  D/DR/DRTECH/Locale-Maketext-Lexicon-1.00.tar.gz
+Locale::Maketext::Extract::Plugin::FormFu 1.00  D/DR/DRTECH/Locale-Maketext-Lexicon-1.00.tar.gz
+Locale::Maketext::Extract::Plugin::FormFu::Extractor 1.00  D/DR/DRTECH/Locale-Maketext-Lexicon-1.00.tar.gz
+Locale::Maketext::Extract::Plugin::Generic 1.00  D/DR/DRTECH/Locale-Maketext-Lexicon-1.00.tar.gz
+Locale::Maketext::Extract::Plugin::Haml 1.00  D/DR/DRTECH/Locale-Maketext-Lexicon-1.00.tar.gz
+Locale::Maketext::Extract::Plugin::Mason 1.00  D/DR/DRTECH/Locale-Maketext-Lexicon-1.00.tar.gz
+Locale::Maketext::Extract::Plugin::Perl 1.00  D/DR/DRTECH/Locale-Maketext-Lexicon-1.00.tar.gz
+Locale::Maketext::Extract::Plugin::PPI 1.00  D/DR/DRTECH/Locale-Maketext-Lexicon-1.00.tar.gz
+Locale::Maketext::Extract::Plugin::TextTemplate 1.00  D/DR/DRTECH/Locale-Maketext-Lexicon-1.00.tar.gz
+Locale::Maketext::Extract::Plugin::TextTemplate::Parser 1.00  D/DR/DRTECH/Locale-Maketext-Lexicon-1.00.tar.gz
+Locale::Maketext::Extract::Plugin::TT2 1.00  D/DR/DRTECH/Locale-Maketext-Lexicon-1.00.tar.gz
+Locale::Maketext::Extract::Plugin::TT2::Directive 1.00  D/DR/DRTECH/Locale-Maketext-Lexicon-1.00.tar.gz
+Locale::Maketext::Extract::Plugin::TT2::Parser 1.00  D/DR/DRTECH/Locale-Maketext-Lexicon-1.00.tar.gz
+Locale::Maketext::Extract::Plugin::YAML 1.00  D/DR/DRTECH/Locale-Maketext-Lexicon-1.00.tar.gz
+Locale::Maketext::Extract::Plugin::YAML::Extractor 1.00  D/DR/DRTECH/Locale-Maketext-Lexicon-1.00.tar.gz
+Locale::Maketext::Extract::Run     1.00  D/DR/DRTECH/Locale-Maketext-Lexicon-1.00.tar.gz
+Locale::Maketext::Lexicon          1.00  D/DR/DRTECH/Locale-Maketext-Lexicon-1.00.tar.gz
+Locale::Maketext::Lexicon::Auto    1.00  D/DR/DRTECH/Locale-Maketext-Lexicon-1.00.tar.gz
+Locale::Maketext::Lexicon::Gettext 1.00  D/DR/DRTECH/Locale-Maketext-Lexicon-1.00.tar.gz
+Locale::Maketext::Lexicon::Msgcat  1.00  D/DR/DRTECH/Locale-Maketext-Lexicon-1.00.tar.gz
+Locale::Maketext::Lexicon::Tie     1.00  D/DR/DRTECH/Locale-Maketext-Lexicon-1.00.tar.gz
 LWP::MediaTypes                    6.04  O/OA/OALDERS/LWP-MediaTypes-6.04.tar.gz
 Mail::Address                      2.21  M/MA/MARKOV/MailTools-2.21.tar.gz
 Mail::Cap                          2.21  M/MA/MARKOV/MailTools-2.21.tar.gz

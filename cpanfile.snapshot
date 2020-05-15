@@ -84,6 +84,19 @@ DISTRIBUTIONS
       Try::Tiny 0.02
       URI::WithBase 0
       perl 5.008001
+  Ark-Plugin-I18N-0.01
+    pathname: S/SO/SONGMU/Ark-Plugin-I18N-0.01.tar.gz
+    provides:
+      Ark::Plugin::I18N 0.01
+    requirements:
+      Ark 0
+      CPAN::Meta 0
+      CPAN::Meta::Prereqs 0
+      ExtUtils::CBuilder 0
+      Locale::Maketext::Lexicon 0
+      Locale::Maketext::Simple 0
+      Module::Build 0.38
+      perl 5.008001
   B-Hooks-EndOfScope-0.24
     pathname: E/ET/ETHER/B-Hooks-EndOfScope-0.24.tar.gz
     provides:
@@ -1862,6 +1875,34 @@ DISTRIBUTIONS
       IPC::Cmd 0
       XSLoader 0.22
       base 0
+  Locale-Maketext-Lexicon-1.00
+    pathname: D/DR/DRTECH/Locale-Maketext-Lexicon-1.00.tar.gz
+    provides:
+      Locale::Maketext::Extract 1.00
+      Locale::Maketext::Extract::Plugin::Base 1.00
+      Locale::Maketext::Extract::Plugin::FormFu 1.00
+      Locale::Maketext::Extract::Plugin::FormFu::Extractor 1.00
+      Locale::Maketext::Extract::Plugin::Generic 1.00
+      Locale::Maketext::Extract::Plugin::Haml 1.00
+      Locale::Maketext::Extract::Plugin::Mason 1.00
+      Locale::Maketext::Extract::Plugin::PPI 1.00
+      Locale::Maketext::Extract::Plugin::Perl 1.00
+      Locale::Maketext::Extract::Plugin::TT2 1.00
+      Locale::Maketext::Extract::Plugin::TT2::Directive 1.00
+      Locale::Maketext::Extract::Plugin::TT2::Parser 1.00
+      Locale::Maketext::Extract::Plugin::TextTemplate 1.00
+      Locale::Maketext::Extract::Plugin::TextTemplate::Parser 1.00
+      Locale::Maketext::Extract::Plugin::YAML 1.00
+      Locale::Maketext::Extract::Plugin::YAML::Extractor 1.00
+      Locale::Maketext::Extract::Run 1.00
+      Locale::Maketext::Lexicon 1.00
+      Locale::Maketext::Lexicon::Auto 1.00
+      Locale::Maketext::Lexicon::Gettext 1.00
+      Locale::Maketext::Lexicon::Msgcat 1.00
+      Locale::Maketext::Lexicon::Tie 1.00
+    requirements:
+      ExtUtils::MakeMaker 6.30
+      Locale::Maketext 1.17
   MRO-Compat-0.13
     pathname: H/HA/HAARG/MRO-Compat-0.13.tar.gz
     provides:
