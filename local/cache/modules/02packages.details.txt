@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.34
-Line-Count:   1453
-Last-Updated: Fri May 15 13:13:28 2020
+Line-Count:   1455
+Last-Updated: Fri May 15 16:44:57 2020
 
 Algorithm::C3                      0.10  H/HA/HAARG/Algorithm-C3-0.10.tar.gz
 Apache::LogFormat::Compiler        0.36  K/KA/KAZEBURO/Apache-LogFormat-Compiler-0.36.tar.gz
@@ -51,6 +51,8 @@ B::Hooks::EndOfScope::XS           0.24  E/ET/ETHER/B-Hooks-EndOfScope-0.24.tar.
 B::Hooks::OP::Check                0.22  E/ET/ETHER/B-Hooks-OP-Check-0.22.tar.gz
 bareword::filehandles             0.007  I/IL/ILMARI/bareword-filehandles-0.007.tar.gz
 Bundle::DBI                    12.008696  T/TI/TIMB/DBI-1.643.tar.gz
+Cache::FastMmap                    1.49  R/RO/ROBM/Cache-FastMmap-1.49.tar.gz
+Cache::FastMmap::OnLeave           1.49  R/RO/ROBM/Cache-FastMmap-1.49.tar.gz
 Carp::Clan                         6.08  E/ET/ETHER/Carp-Clan-6.08.tar.gz
 CGI::Simple                        1.25  M/MA/MANWAR/CGI-Simple-1.25.tar.gz
 CGI::Simple::Cookie                1.25  M/MA/MANWAR/CGI-Simple-1.25.tar.gz
