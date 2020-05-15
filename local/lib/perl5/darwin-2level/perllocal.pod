@@ -2726,3 +2726,69 @@ C<EXE_FILES: >
 
 =back
 
+=head2 Thu May 14 10:47:22 2020: C<Module> L<Test::Simple|Test::Simple>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/miyamura-koyo/src/perl/Jobeet/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.302175>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu May 14 10:47:23 2020: C<Module> L<Test::NoWarnings|Test::NoWarnings>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/miyamura-koyo/src/perl/Jobeet/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.04>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Thu May 14 10:47:24 2020: C<Module> L<IO::Stringy|IO::Stringy>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/miyamura-koyo/src/perl/Jobeet/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 2.113>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
